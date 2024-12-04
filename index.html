@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>bini aiwebpage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html"><strong>Biniverse</strong> AI (Click the picture)</a></h1>
+						<nav>
+							<ul>
+								<li><a href="#footer" class="icon solid fa-info-circle">BINI</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<article class="thumb">
+							<a href="images/fulls/aiah.jpg" class="image"><img src="images/thumbs/aiah.jpg" alt="" /></a>
+							<h2>Bini Aiah</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/colet.jpg" class="image"><img src="images/thumbs/colet.jpg" alt="" /></a>
+							<h2>Bini Colet</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/maloi.jpg" class="image"><img src="images/thumbs/maloi.jpg" alt="" /></a>
+							<h2>Bini Maloi</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/gwen.jpg" class="image"><img src="images/thumbs/gwen.jpg" alt="" /></a>
+							<h2>Bini Gwen</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/staku.jpg" class="image"><img src="images/thumbs/staku.jpg" alt="" /></a>
+							<h2>Bini Stacey</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/mikha.jpg" class="image"><img src="images/thumbs/mikha.jpg" alt="" /></a>
+							<h2>Bini Mikha</h2>
+							<p>Biniverse.</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/jhoanna.jpg" class="image"><img src="images/thumbs/jhoanna.jpg" alt="" /></a>
+							<h2>Bini Jhoanna</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/sheena.jpg" class="image"><img src="images/thumbs/sheena.jpg" alt="" /></a>
+							<h2>Bini Sheena</h2>
+							<p>Biniverse</p>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/BINI.jpg" class="image"><img src="images/thumbs/BINI.jpg" alt="" /></a>
+							<h2>BINI_Ph</h2>
+							<p>Biniverse</p>
+						</article>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+<script type="module">
+	import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+  
+	const widget = await Chatbox.initBubble({
+	  agentId: 'cm42awh9k0cmv2056yft3s6ln',
+	  
+	  // optional 
+	  // If provided will create a contact for the user and link it to the conversation
+	  contact: {
+		firstName: 'maevelyn',
+		lastName: 'villaruel',
+		email: 'customer@email.com',
+		phoneNumber: '+33612345644',
+		userId: '42424242',
+	  },
+	  // optional
+	  // Override initial messages
+	  initialMessages: [
+		'Hello how are you doing today?',
+		'How can I help you ?',
+	  ],
+	  // optional
+	  // Provided context will be appended to the Agent system prompt
+	  context: "The user you are talking to is maevelyn. Start by Greeting by she name.",
+	});
+  
+	// open the chat bubble
+	widget.open();
+  
+	// close the chat bubble
+	widget.close()
+  
+	// or 
+	widget.toggle()
+  </script>
